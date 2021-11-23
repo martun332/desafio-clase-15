@@ -1,0 +1,65 @@
+/* FOOTER */
+.footer{
+    height: 5rem;
+    background-color: rgb(44, 167, 172);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.footer--redes{
+    width: $logoFooterW;
+    height: $logoFooterH;
+}
+.footer--logo{
+    width: 6rem;
+    height: 3rem;
+}
+.footer--lista{
+    display: flex;
+}
+footer{
+    div{
+        ul{
+            li{
+                a{
+                    padding: 5px;
+                    list-style: none;
+                    color: rgb(251, 251, 251);
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+
+/* boton modo oscuro */
+
+.modoOscuro{
+    background-color: $fondoNegro;
+}
+/* FORM DE CONTACTO */
+
+.legend{
+    font-size: 20px;
+    font-weight: bold;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+            /* logo wsp */
+
+.wsp {
+    position:fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.logowsp{
+    width: 50px;
+    height: 50px;
+}
+
+.logowsp:hover {
+    height: 80px;
+    width: 80px;
+    transition: all 3s;
+} 

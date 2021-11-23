@@ -1,0 +1,47 @@
+/* MENU HEADER */
+
+.logo{
+    width: 150px;
+    height: 80px;
+    margin-left: 3rem;
+}
+
+.paginaActual {
+    background-color: rgb(74, 216, 209);
+    text-decoration: none;
+    border-radius: 10px;
+}
+ul{
+    li{
+        a{
+            text-decoration: none;
+            font-size: 20px;
+            color: rgb(17, 0, 255);
+        }
+    }
+}
+
+ul{
+    li{
+        list-style: none;
+        padding: 1rem;
+    }
+}
+.menu{
+    background-color: rgb(44, 167, 172);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.menuItems{
+display: flex;
+padding: 1rem;
+margin-right: 3rem;
+}
+.botonmio{
+    color: rgb(17, 0, 255);
+    font-size: 20px;
+    border: none;
+    background-color:rgb(44, 167, 172) ;
+}
