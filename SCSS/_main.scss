@@ -19,17 +19,17 @@ h4{
     width: 600px;
 text-align: left;
 }
-.botonmargin{
+.main__botonmargin{
     margin-top: 30px;
     margin-left: 270px;
 }
 
-.imagenPrincipal{
+.main__imagenPrincipal{
     width: 600px;
     height: 450px;
     border-radius: 20px;
 }
-.imagenPrincipal:hover{
+.main__imagenPrincipal:hover{
     animation-name: imagen_principal;
     animation-iteration-count:1; /* infinite o cantidad de veces */
     animation-timing-function:ease-in;

@@ -22,12 +22,12 @@ footer {
   grid-area: footer; }
 
 /* MENU HEADER */
-.logo {
+.header__nav-logo {
   width: 150px;
   height: 80px;
   margin-left: 3rem; }
 
-.paginaActual {
+.header__nav-paginaActual {
   background-color: #4ad8d1;
   text-decoration: none;
   border-radius: 10px; }
@@ -41,7 +41,7 @@ ul li {
   list-style: none;
   padding: 1rem; }
 
-.menu {
+.header__nav {
   background-color: #2ca7ac;
   display: flex;
   justify-content: space-between;
@@ -52,7 +52,7 @@ ul li {
   padding: 1rem;
   margin-right: 3rem; }
 
-.botonmio {
+.header__nav-botonmio {
   color: #1100ff;
   font-size: 20px;
   border: none;
@@ -77,16 +77,16 @@ h4 {
   width: 600px;
   text-align: left; }
 
-.botonmargin {
+.main__botonmargin {
   margin-top: 30px;
   margin-left: 270px; }
 
-.imagenPrincipal {
+.main__imagenPrincipal {
   width: 600px;
   height: 450px;
   border-radius: 20px; }
 
-.imagenPrincipal:hover {
+.main__imagenPrincipal:hover {
   animation-name: imagen_principal;
   animation-iteration-count: 1;
   /* infinite o cantidad de veces */
@@ -95,21 +95,17 @@ h4 {
 
 /* FOOTER */
 .footer {
-  height: 5rem;
-  background-color: #2ca7ac;
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
+  background-color: #2ca7ac; }
 
-.footer--redes {
+.footer__redes {
   width: 2rem;
   height: 2rem; }
 
-.footer--logo {
+.footer__logo {
   width: 6rem;
   height: 3rem; }
 
-.footer--lista {
+.footer__lista {
   display: flex; }
 
 footer div ul li a {
@@ -118,30 +114,11 @@ footer div ul li a {
   color: #fbfbfb;
   font-size: 1rem; }
 
-/* boton modo oscuro */
-.modoOscuro {
-  background-color: black; }
-
 /* FORM DE CONTACTO */
 .legend {
   font-size: 20px;
   font-weight: bold;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
-
-/* logo wsp */
-.wsp {
-  position: fixed;
-  bottom: 10px;
-  right: 10px; }
-
-.logowsp {
-  width: 50px;
-  height: 50px; }
-
-.logowsp:hover {
-  height: 80px;
-  width: 80px;
-  transition: all 3s; }
 
 /* media queries */
 @media only screen and (max-width: 700px) {

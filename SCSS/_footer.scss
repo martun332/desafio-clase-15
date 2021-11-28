@@ -1,20 +1,16 @@
 /* FOOTER */
 .footer{
-    height: 5rem;
     background-color: rgb(44, 167, 172);
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
 }
-.footer--redes{
-    width: $logoFooterW;
-    height: $logoFooterH;
+.footer__redes{
+    width: 2rem;
+    height: 2rem;
 }
-.footer--logo{
+.footer__logo{
     width: 6rem;
     height: 3rem;
 }
-.footer--lista{
+.footer__lista{
     display: flex;
 }
 footer{
@@ -32,11 +28,6 @@ footer{
     }
 }
 
-/* boton modo oscuro */
-
-.modoOscuro{
-    background-color: $fondoNegro;
-}
 /* FORM DE CONTACTO */
 
 .legend{
@@ -44,22 +35,3 @@ footer{
     font-weight: bold;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
-            /* logo wsp */
-
-.wsp {
-    position:fixed;
-    bottom: 10px;
-    right: 10px;
-}
-
-.logowsp{
-    width: 50px;
-    height: 50px;
-}
-
-.logowsp:hover {
-    height: 80px;
-    width: 80px;
-    transition: all 3s;
-} 

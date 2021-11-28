@@ -1,12 +1,12 @@
 /* MENU HEADER */
 
-.logo{
+.header__nav-logo{
     width: 150px;
     height: 80px;
     margin-left: 3rem;
 }
 
-.paginaActual {
+.header__nav-paginaActual {
     background-color: rgb(74, 216, 209);
     text-decoration: none;
     border-radius: 10px;
@@ -27,7 +27,7 @@ ul{
         padding: 1rem;
     }
 }
-.menu{
+.header__nav{
     background-color: rgb(44, 167, 172);
     display: flex;
     justify-content: space-between;
@@ -39,7 +39,7 @@ display: flex;
 padding: 1rem;
 margin-right: 3rem;
 }
-.botonmio{
+.header__nav-botonmio{
     color: rgb(17, 0, 255);
     font-size: 20px;
     border: none;
