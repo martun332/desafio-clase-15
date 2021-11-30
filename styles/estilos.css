@@ -58,19 +58,18 @@ ul li {
   background-color: #2ca7ac; }
 
 /* Main */
-.h1 {
+.index__main-h1 {
   font-size: 50px;
-  text-align: left;
   color: #0a1386;
   font-family: fantasy; }
 
-.h3 {
+.index__main-h3 {
   padding: 3%;
   color: #0155d3;
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
 
-.h4 {
+.index__main-h4 {
   color: #080808;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
 
@@ -94,14 +93,14 @@ ul li {
   text-align: center;
   justify-content: center;
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%); }
 
 .main__texto2 {
   margin-top: 3%;
   position: absolute;
-  top: 70%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); }
 
@@ -117,6 +116,17 @@ h4 {
   margin-left: 50px;
   width: 600px;
   text-align: left; }
+
+/* MAIN SERVICIOS */
+.servicios__main-h1 {
+  font-size: 50px;
+  color: #0a1386;
+  font-family: fantasy; }
+
+.servicios__main-pieza {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
 
 /* FOOTER */
 .footer {
