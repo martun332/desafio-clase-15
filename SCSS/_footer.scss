@@ -1,4 +1,7 @@
 /* FOOTER */
+
+
+
 .footer{
     background-color: rgb(44, 167, 172);
 }
@@ -6,13 +9,30 @@
     width: 2rem;
     height: 2rem;
 }
+.footer__iconosredes{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
 .footer__logo{
     width: 6rem;
     height: 3rem;
 }
+.footer__posicionlogo{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
 .footer__lista{
     display: flex;
 }
+.footer__flexlista{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
 footer{
     div{
         ul{
