@@ -118,40 +118,10 @@ h4 {
   text-align: left; }
 
 /* MAIN SERVICIOS */
-.servicios__main-h1 {
-  font-size: 50px;
-  color: #0a1386;
-  font-family: fantasy;
-  text-align: center;
-  margin-bottom: 2%; }
-
-.servicios__main-pieza {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly; }
-
-.servicios__main_div1pieza {
-  display: inline-block;
-  align-items: center;
-  justify-content: center;
-  width: 50%; }
-
-.servicios__main_div2pieza {
-  width: 50%;
-  display: inline-block;
-  align-items: center;
-  justify-content: center; }
-
 .servicios__main-piezaimg {
+  height: 10rem;
   width: 15rem;
-  height: 15rem; }
-
-.servicios__main-piezah2 {
-  text-align: center; }
-
-.servicios__main_p1 {
-  text-align: center;
-  width: 90%; }
+  border-radius: 5%; }
 
 /* FOOTER */
 .footer {
