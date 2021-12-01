@@ -8,9 +8,9 @@
 body{
     display: grid;
     grid-template-areas:
-    "header"
-    "main"
-    "footer";
+    "header header"
+    "main main"
+    "footer footer";
     grid-template-columns:1fr ;
     grid-template-rows:auto auto auto;
     grid-column-gap: 0px;
