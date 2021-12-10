@@ -410,6 +410,16 @@ footer div ul li a {
     padding: 5px;
     list-style: none;
     color: #fbfbfb;
-    font-size: 0.8rem; } }
+    font-size: 0.8rem; }
+  /* MAIN SERVICIOS */
+  .servicios__main-titulo {
+    text-align: center; }
+  .servicios__main-piezaimg {
+    height: 9rem;
+    width: 9rem;
+    border-radius: 5%; }
+  .main_servicios_320px {
+    display: flex;
+    flex-direction: column; } }
 
 /* animaciones */
