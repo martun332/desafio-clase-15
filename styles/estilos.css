@@ -345,4 +345,71 @@ footer div ul li a {
   .footer__iconosredes {
     display: none; } }
 
+/*index  */
+@media screen and (max-width: 320px) {
+  .index__main-h1 {
+    font-size: 18px;
+    color: #0a1386;
+    font-family: fantasy; }
+  .index__main-h3 {
+    font-size: 15px;
+    padding: 0;
+    color: #0155d3;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+  .index__main-h4 {
+    font-size: 10px;
+    color: #080808;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+  .main__botonmio {
+    font-size: 10px;
+    padding-bottom: 1%;
+    margin: 0; }
+  .main__imagenPrincipal {
+    width: 100%;
+    height: 100%; }
+  .main__divmain {
+    position: relative;
+    display: inline-block;
+    text-align: center; }
+  .main__texto1 {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    transform: translate(-50%, -50%); }
+  .main__texto2 {
+    margin-top: 1%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  /* footer */
+  .footer {
+    background-color: #2ca7ac; }
+  .footer__iconosredes {
+    display: none; }
+  .footer__logo {
+    width: 5.5rem;
+    height: 2.5rem; }
+  .footer__posicionlogo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
+  .footer__lista {
+    display: flex;
+    list-style: none; }
+  .footer__flexlista {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  footer div ul li a {
+    padding: 5px;
+    list-style: none;
+    color: #fbfbfb;
+    font-size: 0.8rem; } }
+
 /* animaciones */
