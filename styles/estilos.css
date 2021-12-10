@@ -153,7 +153,6 @@ h4 {
   border-radius: 5%; }
 
 /* MAIN UBICACION */
-/* MAIN NOSOTROS */
 .ubicacion__ul-icono1 {
   width: 1.5rem;
   height: 1.5rem; }
@@ -420,6 +419,14 @@ footer div ul li a {
     border-radius: 5%; }
   .main_servicios_320px {
     display: flex;
-    flex-direction: column; } }
+    flex-direction: column; }
+  /* MAIN NOSOTROS */
+  .main_nosotros_320px {
+    display: flex;
+    flex-direction: column; }
+  .nosotros_main_boton {
+    margin-bottom: 10px; }
+  .nosotros__main-img {
+    width: 18rem; } }
 
 /* animaciones */
