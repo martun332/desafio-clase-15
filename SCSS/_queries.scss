@@ -225,6 +225,10 @@ footer{
 /*index  */
             @media screen and (max-width:320px){
 
+.header__menu_items{
+    display: none;
+}
+
 
 .index__main-h1{
     font-size: 18px;
@@ -239,6 +243,7 @@ footer{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .index__main-h4{
+    width: 300px;
     font-size: 10px;
     color: rgb(8, 8, 8);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -308,6 +313,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content:center;
+    transform: translate(-5%, 0)
 }
 
 footer{

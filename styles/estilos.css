@@ -337,6 +337,8 @@ footer div ul li a {
 
 /*index  */
 @media screen and (max-width: 320px) {
+  .header__menu_items {
+    display: none; }
   .index__main-h1 {
     font-size: 18px;
     color: #0a1386;
@@ -348,6 +350,7 @@ footer div ul li a {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
   .index__main-h4 {
+    width: 300px;
     font-size: 10px;
     color: #080808;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
@@ -395,7 +398,8 @@ footer div ul li a {
   .footer__flexlista {
     display: flex;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    transform: translate(-5%, 0); }
   footer div ul li a {
     padding: 5px;
     list-style: none;
